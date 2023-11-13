@@ -5,6 +5,7 @@ total = 0
 for line in lines:
     name, population = line.split(",")
     total += int(population)
+    # hello
 
 print(f"Total population: {total:,}")
 
